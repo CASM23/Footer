@@ -1,0 +1,87 @@
+.footer-container {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+
+
+  .title-with-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title-with-icon .icon {
+    width: 25px; /* Tamaño del icono */
+    height: 25px; /* Tamaño del icono */
+    margin-right: 10px; /* Espacio entre el icono y el texto del título */
+  }
+  
+  .title-section h1 {
+    color: #FF6600;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+  }
+  
+  .content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .section {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: -20px;
+  }
+  
+
+  .section h3 {
+    font-size: 18px;
+    color: #FF8C00;
+    margin-bottom: 10px;
+  }
+  
+  .section .parrafos {
+    font-size: 14px;
+    color: #FF8C00;
+    margin-top: 10px;
+    min-height: 80px;
+  }
+
+  .section .parrafo-copyright {
+    font-size: 14px;
+    color: #FF8C00;
+    margin-top: 50px;
+    min-height: 80px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 35px;
+
+  }
+  
+  .social-logo {
+    width: 25px;
+    height: 25px;
+    margin-right: 30px;
+  }
+  
+  @media (min-width: 768px) {
+    .section {
+      flex-basis: 30%;
+    }
+  }
+  
